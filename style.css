@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    padding: 15px 28px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+h2{
+    font-family: 'Inter';
+    font-size: 35px;
+    color: #121212;
+}
+
+p{
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+    color: #707070;
+}
+
+
+
+
+/* -----heading part start----- */
+.heading{
+    background-image: url(images/donation01.png);
+    height: 669px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.heading h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 55px;
+    color: #fff;
+    padding-top: 170px;
+}
+
+.heading p{
+    width: 44%;
+    color: #FFF;
+    margin-left: 28%;
+}
+
+/* -----heading part end here----- */
+
+
+/* -----donate today start----- */
+.donate_today{
+    text-align: center;
+    margin-top: 130px;
+}
+.donate_today p{
+    width: 40%;
+    margin-left: 30%;
+}
+.do_amount{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 95px;
+    width: 60%;
+    margin-left: 20%;
+}
+.do_amount h3{
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #565656;
+}
+.do_amount .click_amount{
+    width: 116px;
+    height: 65px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: -50px;
+    color: #FF5959;
+}
+.donate_today input{
+    margin-top: 60px;
+    width: 60%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #989898;
+    padding: 13px;
+    font-size: 15px;
+}
+/* -----donate today end here----- */
+
+
+/* -----donate plan start----- */
+.donate_plan{
+    margin-top: 130px;
+}
+.donate_plan h2{
+    text-align: center;
+}
+.all_fecilities{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fecilities{
+    width: 330px;
+    height: 332px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.fecilities img{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.fecilities h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.fecilities p{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 25px;
+
+}
+#one{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#three{
+    background-color: #FFF4D6;
+}
+/* -----donate plan end here----- */
