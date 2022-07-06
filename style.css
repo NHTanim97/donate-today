@@ -2,7 +2,18 @@
     margin: 0;
     padding: 0;
 }
+/*
+   ***Common CSS
+    .btn,
+     h2,
+     p,
 
+----common css for news & stories
+    .content,
+    .content img,
+    .content span,
+
+*/
 .btn{
     padding: 15px 28px;
     background: #FF5959;
@@ -46,7 +57,6 @@ p{
     color: #fff;
     padding-top: 170px;
 }
-
 .heading p{
     width: 44%;
     color: #FFF;
@@ -110,6 +120,10 @@ p{
 .donate_plan h2{
     text-align: center;
 }
+#donate_ptext{
+    width: 40%;
+    margin-left: 30%;
+}
 .all_fecilities{
     display: flex;
     justify-content: space-evenly;
@@ -144,3 +158,141 @@ p{
     background-color: #FFF4D6;
 }
 /* -----donate plan end here----- */
+
+
+/* -----How to Contribute? start----- */
+.contribute{
+    margin-top: 130px;
+}
+.contribute_sylhet{
+    display: flex;
+}
+.contribute_left{
+    width: 43%;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+.contribute_right{
+    width: 50%;
+}
+.contribute_sylhet img{
+    width: 456px;
+    height: 370px;
+}
+.contribute_sylhet p{
+    text-align: left;
+}
+/* -----How to Contribute? end here----- */
+
+
+/* -----get update start----- */
+.get_update{
+    margin-top: 130px;
+}
+.get_update h2{
+    text-align: center;
+}
+.get_update p{
+    width: 40%;
+    margin-left: 30%;
+}
+.subscrib{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    height: 160px;
+    background-color: #FFF4D6;
+    text-align: center;
+}
+.subscrib input{
+    width: 330px;
+    height: 40px;
+    background-color:#D9D9D9;
+    outline: none;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 15px;
+    margin-top: 60px;
+}
+.sub_btn{
+    padding: 12px 28px;
+    background: #FF5959;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    font-family: 'Inter';
+    font-size: 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* -----get update end here----- */
+
+
+/* -----news start----- */
+.flood_news{
+    margin-top: 130px;
+}
+.flood_news h2{
+    text-align: center;
+    color: #FF5959;
+}
+.news{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/*
+  common css news & stories
+*/
+.content{
+    width: 400px;
+    height: 390px;
+    margin-top: 40px;
+}
+.content img{
+    height: 270px;
+    width: 390px;
+    margin-bottom: 10px;
+}
+.content span{
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+/* -----news end here----- */
+
+
+/* -----stories start----- */
+.flood_stories{
+    margin-top: 30px;
+    height: 600px;
+    background-color: #EEECE1;
+}
+.flood_stories h2{
+    text-align: center;
+    color: #FF5959;
+    padding-top: 60px;
+}
+.stories{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* -----stories end here----- */
+
+
+/* -----footer start----- */
+footer{
+    margin-top: 65px;
+    height: 120px;
+    background: #0B0D17;
+    padding-top: 40px;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 30px;
+    text-align: center;
+
+}
+footer p{
+    color: #D9DBE1;
+}
+/* -----footer end here----- */
